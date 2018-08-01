@@ -21,6 +21,7 @@ class Config:
 
 def init():
     sys.path.insert(0, "./tools")
-    sys.path.insert(0, "./caffe/python")
+    sys.path.insert(0, "./../caffe/python")
+    sys.path.insert(0, "./../caffe/build/python")
     sys.path.insert(0, "./src")
 init()
